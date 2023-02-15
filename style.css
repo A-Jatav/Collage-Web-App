@@ -1,9 +1,42 @@
-body{
+body {
     background-color: saddlebrown !important;
     color: lawngreen !important;
+    font-family: 'Clicker Script', cursive !important;
+    font-size: 50px !important;
 }
 
-button img{
+p {
+    font-size: 30px !important;
+}
+
+button img {
     height: 20px;
     width: 20px;
+}
+
+#footer {
+    font-size: 20px;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    height: 5%;
+    padding-top: 7px;
+    color: darkolivegreen;
+}
+
+.results_image:hover {
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#camera {
+    border: 5px;
+    border-color: black;
+    border-style: dotted;
+    height: 400px;
+    width: 500px;
 }

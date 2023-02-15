@@ -7,6 +7,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 
@@ -14,39 +17,44 @@
     <center>
         <h1>Collage Web App</h1>
         <hr>
-        <h4 class="btn btn-danger">As soon as the popup to access your microphone and camera appears, please click on
-            Allow.</h4>
-            <br>
-            <br>
-            <h2 class="btn btn-info">Say "selfie" for taking your selfies and to make a collage.</h2>
-            <br>
-            <br>
-            <button class="btn btn-success"><img src="microphone.png"></button>
-            <br>
-            <br>
-            <h5 class="btn btn-warning">Press the microphone button to start recording audio.</h5>
-            <br>
-            <br>
-            <label>Webcam View:</label>
-            <br>
-            <div id="camera"></div>
-            <br>
-            <br>
-            <label>Collage:</label>
-            <div id="resultShow">
-                <div id="result1">
-                    <img src="croc.jpg" style="width: 30%">
-                </div>
-                <div id="result2">
-                    <img src="wallpaper.png" style="width: 30%">
-                </div>
-                <div id="result3">
-                    <img src="background.jpg" style="width: 30%">
-                </div>
+        <p class="btn btn-danger">As soon as the popup to access your microphone and camera appears, please click on
+            Allow.</p>
+        <br>
+        <br>
+        <p class="btn btn-info">Say "selfie" for taking your selfies and to make a collage.</p>
+        <br>
+        <br>
+        <button class="btn btn-success"><img src="microphone.png"></button>
+        <br>
+        <br>
+        <p class="btn btn-warning">Press the microphone button to start recording audio.</p>
+        <br>
+        <br>
+        <label>Webcam View:</label>
+        <br>
+        <div id="camera"></div>
+        <br>
+        <br>
+        <label>Collage:</label>
+        <div id="resultShow">
+            <div id="result1">
+                <img src="croc.jpg" class="results_image" style="width: 30%">
             </div>
             <br>
+            <div id="result2">
+                <img src="wallpaper.png" class="results_image" style="width: 30%">
+            </div>
             <br>
+            <div id="result3">
+                <img src="background.jpg" class="results_image" style="width: 30%">
+            </div>
+        </div>
+        <br>
+        <br>
     </center>
+    <div id="footer">
+        Developed by - Apratim Jatav
+    </div>
 </body>
 
 </html>
